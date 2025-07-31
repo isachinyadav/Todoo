@@ -3,7 +3,7 @@ import axios from "axios";
 import { jwtDecode } from "jwt-decode"; // Named import for the recent version
 import { useNavigate } from "react-router-dom";
 
-const API_BASE_URL = "http://todo-sachin.runasp.net/api/todoapi";
+const API_BASE_URL = "https://todo-sachin.runasp.net/api/todoapi";
 
 const TodoPage = () => {
   const [userName, setUserName] = useState("");
