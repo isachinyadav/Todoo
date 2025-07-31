@@ -23,7 +23,7 @@ const Register = () => {
     try {
       console.log('Registering user:', { userName, userEmail, password });
 
-      const response = await axios.post('https://todo-sachin.runasp.net/api/register', {
+      const response = await axios.post('http://todo-sachin.runasp.net/api/register', {
         userName,
         userEmail,
         password,
