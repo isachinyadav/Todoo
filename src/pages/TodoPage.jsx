@@ -207,7 +207,7 @@ const TodoPage = () => {
       <nav className="bg-white shadow-lg">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row justify-between h-auto sm:h-20 items-center gap-4 sm:gap-0">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-700 tracking-wide">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-700 tracking-wide pb-4 ">
               TodoApp
             </h1>
             <div className="flex items-center space-x-4 sm:space-x-6">
@@ -232,7 +232,7 @@ const TodoPage = () => {
       </nav>
 
       {/* MAIN CONTENT */}
-      <main className="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col gap-8 md:gap-12">
+      <main className="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col gap-8 md:gap-12 pt-4">
         {/* ADD TODO SECTION */}
         <section className="bg-white rounded-xl shadow-lg p-4 sm:p-6 md:p-8 flex flex-col gap-4">
           <h2 className="text-2xl md:text-4xl font-semibold text-blue-700 mb-2 md:mb-6">
